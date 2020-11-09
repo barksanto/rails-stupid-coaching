@@ -1,0 +1,14 @@
+<h1>Here is the answer page</h1>
+
+<div>
+  <p>Your question was: <%= @message %></p>
+  <p>- You</p>
+</div>
+
+<div class="coach-answer">
+  <p>The response is was: <strong><%= @answer %></strong></p>
+  <p>- Your Coach</p>
+</div>
+
+<%= link_to "Back to Ask page.", ask_path %>
+
